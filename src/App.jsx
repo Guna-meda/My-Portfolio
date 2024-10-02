@@ -1,10 +1,16 @@
+import Navbar from "./Components/Navbar";
+import Projects from "./Components/Projects";
 import SplineComponent from "./Components/SplineComponent";
 
 function App() {
   return (
-    <div className="bg-slate-400">
-      <SplineComponent></SplineComponent>
-    </div>
+    <>
+      <Navbar></Navbar>
+      <div className="bg-slate-400 vignette">
+        <SplineComponent></SplineComponent>
+        <Projects></Projects>
+      </div>
+    </>
   );
 }
 
