@@ -11,23 +11,25 @@ const SplineComponent = () => {
         />
       </div>
 
-      <div className="  w-full md:w-1/2 flex flex-col justify-center items-start p-5 pb-2 md:p-10 md:bg-one gap-20">
-        <h1 className="text-4xl md:text-4xl font-bold text-two font-poppins">
-          In need of a WEBSITE for your brand?
-        </h1>
-        <div className="flex flex-col justify-center items-start gap-5">
-          <h1 className="text-4xl md:text-3xl font-bold text-slate-900 font-poppins ">
-            I've got you covered
+      <div className="  w-full md:w-1/2 flex flex-col justify-center items-start p-5 pb-2 md:p-10 md:bg-one  gap-6">
+        <div className=" flex flex-col gap-20">
+          <h1 className="text-4xl md:text-4xl font-bold text-two font-poppins">
+            In need of a WEBSITE for your brand?
           </h1>
-          <p className="text-3xl  mt-2 md:text-2xl font-sofia text-">
-            "Hey! 👋 I'm Guna, I turn your ideas into slick, functional web
-            solutions. Let’s make something your users will love!"
-          </p>
+          <div className="flex flex-col justify-center items-start gap-5">
+            <h1 className="text-4xl md:text-3xl font-bold text-slate-900 font-poppins ">
+              I've got you covered
+            </h1>
+            <p className="text-3xl  mt-2 md:text-2xl font-sofia text-">
+              "Hey! 👋 I'm Guna, I turn your ideas into slick, functional web
+              solutions. Let’s make something your users will love!"
+            </p>
+          </div>
         </div>
+        <button className="bg-two hover:bg-four text-one font-bold py-2 px-4 rounded">
+          Contact
+        </button>
       </div>
-      <button className="bg-two w-1/3 m-5 hover:bg-four text-one font-bold py-2 px-4 rounded-md text-xl">
-        Contact
-      </button>
     </div>
   );
 };
